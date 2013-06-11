@@ -1,0 +1,27 @@
+{
+  "types": [
+
+  ],
+  "license": "Apache 2.0",
+  "source": "git://github.com/thias/puppet-modules/modules/glusterfs",
+  "dependencies": [
+
+  ],
+  "project_page": "http://glee.thias.es/puppet",
+  "description": "Install, enable and configure GlusterFS servers and clients.",
+  "checksums": {
+    "manifests/peer.pp": "b7e83d148ee91a1562b5fa06e90b4bdd",
+    "manifests/volume.pp": "1b19f9191c25025cccf17c296f56bae4",
+    "Modulefile": "bd470d8eeca0163f30363ddd874807f3",
+    "README": "edd5f0797133acf2f7d60522ed5bbea0",
+    "ChangeLog": "ccd955da7b097388182b72058d87420a",
+    "manifests/server.pp": "f03dffafebbd0642acd65685e3ad02ea",
+    "manifests/client.pp": "0ee7959fa89ec65e83c69e128d2010b0",
+    "manifests/mount.pp": "296226abfbf126afffbfe6fb93eb946f",
+    "LICENSE": "6eb74cb06de37b55366fe13fe01a8476"
+  },
+  "summary": "GlusterFS module",
+  "name": "thias-glusterfs",
+  "author": "Matthias Saou",
+  "version": "0.0.2"
+}
